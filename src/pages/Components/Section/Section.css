@@ -49,6 +49,7 @@
     .section-box2 {
         flex-direction: column;
         padding: 2rem;
+        margin-left: none;
     }
 
     .box-left>h1 {
