@@ -52,3 +52,13 @@ hr {
     display: flex;
     gap: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .right  {
+        flex-direction: column;
+    }
+}

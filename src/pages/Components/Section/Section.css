@@ -43,3 +43,19 @@
 .box-right>img {
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .section-box,
+    .section-box2 {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .box-left>h1 {
+        font-size: 1.2rem;
+    }
+
+    .box-left>p {
+        font-size: 0.7rem;
+    }
+}
