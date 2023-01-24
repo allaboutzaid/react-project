@@ -1,0 +1,35 @@
+.banner-body {
+    background-color: #D3756B;
+    padding: 2rem 2rem;
+    background-image: url('../../../assets/banner_bg.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.banner-body>.figures {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.banner-body>.figures>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-body>.figures>div>span:nth-of-type(1) {
+    font-size: 2rem;
+    color: white;
+}
+
+.banner-body>.figures>div>span:nth-of-type(2) {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-body>.figures {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
