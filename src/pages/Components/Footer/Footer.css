@@ -5,14 +5,14 @@
 }
 
 .left {
-    flex: 30%;
+    flex: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .right {
-    flex: 70%;
+    flex: 65%;
     display: flex;
 }
 
